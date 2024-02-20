@@ -18,6 +18,7 @@ public class ComentarioServico
 
     public ComentarioServico
     ([FromServices] NoticiaRepositorio notrepositorio, [FromServices] UsuarioRepositorio userRepositorio, [FromServices] ComentarioRepositorio comRepositorio)
+  
     {
         _noticiaRepositorio = notrepositorio;
         _usuarioRepositorio = userRepositorio;

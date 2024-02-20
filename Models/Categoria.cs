@@ -12,6 +12,5 @@ namespace SiteNoticias.Models
         public string Nome { get; set; }
         public List<Noticia> Noticia { get; set; }
 
-
     }
 }

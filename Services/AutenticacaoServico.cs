@@ -16,6 +16,7 @@ public class AutenticacaoServico
 
     private readonly IConfiguration _configuration;
 
+
     public AutenticacaoServico([FromServices] UsuarioRepositorio repositorio, [FromServices] IConfiguration configuration)
     {
         _usuarioRepositorio = repositorio;

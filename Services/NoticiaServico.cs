@@ -21,6 +21,7 @@ public class NoticiaServico
         _noticiaRepositorio = notrepositorio;
         _usuarioRepositorio = userRepositorio;
         _categoriaRepositorio = catRepositorio;
+        
     }
 
     public NoticiaResposta CriarNoticia(NoticiaRequisicao novaNoticia)

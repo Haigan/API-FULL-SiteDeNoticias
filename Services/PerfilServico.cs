@@ -20,7 +20,6 @@ public class PerfilServico
     _perfilRepoitorio = repositorio ;
 
 
-
    }
 
 public PerfilResposta CriarPefil (PerfilCriarAtualizar novoPerfil ){

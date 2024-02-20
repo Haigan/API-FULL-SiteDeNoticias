@@ -17,6 +17,7 @@ public class CategoriaServico
 
     public CategoriaServico ([FromServices]CategoriaRepositorio repositorio ){
 
+
         _categoriaRepositorio = repositorio ;
 
     }

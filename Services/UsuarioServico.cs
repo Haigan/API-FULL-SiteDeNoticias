@@ -19,6 +19,7 @@ public class UsuarioServico
     {
         _usuarioRepositorio = repositorio;
         _perfilRepositorio = pRepositorio;
+        
 
     }
 

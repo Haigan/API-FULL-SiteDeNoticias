@@ -7,7 +7,7 @@ namespace SiteNoticias.Models
     {
         [Required]
         public int Id { get; set; }
-
+        
         [Required]
         [Column(TypeName = "text")]
         public string Conteudo { get; set; }

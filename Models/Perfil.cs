@@ -15,6 +15,5 @@ namespace SiteNoticias.Models
 
         public List<Usuario> Usuarios { get; set; }
 
-
     }
 }
